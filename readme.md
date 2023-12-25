@@ -24,8 +24,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/profile-card-component-with-tailwindcss-w7uCQ9wV5S)
+- Live Site URL: [Netlify](https://fm-challenge-profile-card-comp.netlify.app/)
 
 ## My process
 
