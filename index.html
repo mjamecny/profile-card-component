@@ -18,5 +18,42 @@
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Profile card component</title>
   </head>
-  <body></body>
+  <body class="h-screen bg-darkCyan relative overflow-hidden bg">
+    <div
+      class="flex flex-col justify-center items-center h-screen max-w-sm px-2.4 mx-auto"
+    >
+      <div
+        class="w-full h-[17%] bg-[url('./images/bg-pattern-card.svg')] rounded-t-lg"
+      ></div>
+      <div class="w-full bg-[#fff] relative rounded-b-lg">
+        <img
+          class="w-[80px] rounded-full absolute top-[-50%] translate-y-[75%] left-[50%] translate-x-[-50%] outline outline-4 outline-[#fff]"
+          src="./images/image-victor.jpg"
+          alt="profile photo"
+        />
+        <div class="flex flex-col px-3.2 pt-4.8 pb-2.4 items-center">
+          <div class="flex gap-0.8 items-center">
+            <p class="font-bold">Victor Crest</p>
+            <p class="text-darkGray">26</p>
+          </div>
+          <p class="text-darkGray text-1.2">London</p>
+        </div>
+        <hr class="text-darkGray/30" />
+        <div class="flex px-3.2 py-2.4 gap-2.4 justify-center">
+          <div class="flex flex-col gap-0.2 items-center">
+            <p class="font-bold">80K</p>
+            <p class="text-1 text-darkGray tracking-wider">Followers</p>
+          </div>
+          <div class="flex flex-col gap-0.2 items-center">
+            <p class="font-bold">803K</p>
+            <p class="text-1 text-darkGray tracking-wider">Likes</p>
+          </div>
+          <div class="flex flex-col gap-0.2 items-center">
+            <p class="font-bold">1.4K</p>
+            <p class="text-1 text-darkGray tracking-wider">Photos</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
